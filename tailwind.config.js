@@ -23,8 +23,9 @@ module.exports = {
         secondary: '#667085',
         accent: {
           DEFAULT: '#ed1d24',
-          hover: '#dedede',
+          hover: '#dd242a',
         },
+        body: 'dedede',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

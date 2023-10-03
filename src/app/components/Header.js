@@ -40,7 +40,13 @@ export default function Header() {
 
     return (
     <header className={`${header ? 'bg-white shadow-md py-2' : 'bg-transparent shadow-none py-4'} fixed w-full max-w-[1920px] mx-auto z-20 transition-all duration-300`}>
-        <div className="xl:container mx-auto flex flex-col xl:flex-row xl:item-center xl:justify-between">Header</div>
+        <div className="xl:container mx-auto flex flex-col xl:flex-row xl:items-center xl:justify-between">
+            <div>
+                <Link>
+                    <Image src={'/icons/logo.svg'} width={194} height={64} alt=""/>
+                </Link>
+            </div>
+        </div>
     </header>
     );
 }
